@@ -1,0 +1,50 @@
+.Product{
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 3px 7px rgba(0 ,0 ,0 ,0.4);
+    border-radius: 10px;
+    margin: 15px;
+}
+.product_img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+.product_info>p {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.product_name{
+    font-size: 25px  !important;
+    font-weight: bolder;
+}
+.product_description{
+    font-size: 22px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product_price{
+    font-size: 20px !important;
+    font-weight: bolder;
+}
+.product_button{
+    display: flex;
+    flex-direction: column;
+}
+.buttoncommon{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px;
+    font-size: 20px;
+    background: rgb(63, 63, 63);
+    color: white;
+    border-radius: 5px;
+}
+
+
+@media (max-width:500px){
+    .product_img{
+        height: 200px;
+        width: 400px;
+        object-fit: contain;
+    }
+}
